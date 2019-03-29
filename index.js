@@ -98,6 +98,9 @@
 
   showdown.setOption('mbAddStyle', false);
   showdown.setOption('mbStyle', `<style>
+    .mb {
+      position: relative;
+    }
     .mb-artist {
       float: right;
       font-size: 0.9em;
@@ -121,7 +124,7 @@
       text-align: right;
     }
     .mb-has-chords {
-      line-height: 1.9em;
+      line-height: 1.9em !important;
     }
     .mb-ca {
       position: relative;
